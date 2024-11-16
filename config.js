@@ -11,7 +11,7 @@ const ownervb = process.env.OWNERS || "2349013432338; Opaksfire"
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [Marverick];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
